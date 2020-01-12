@@ -17,18 +17,18 @@ function rnd(min, max) {
 }
 
 function rndColour() {
-    var col = 'rgba(' + rnd(150, 255) + ', ' + rnd(150, 255) + ', ' + rnd(150, 255) + ', 0.7)'; 
+    var col = 'rgba(' + rnd(150, 255) + ', ' + rnd(150, 255) + ', ' + rnd(150, 255) + ', 0.8)'; 
     return col;
 }
 
 function Circle(){
     
-    this.r = 30;
+    this.r = 6;
 
     this.x = rnd((this.r * 2), (w - (this.r * 2)));
     this.y = rnd((this.r * 2), (h - (this.r * 2)));
-    this.dx = rnd(1, 3);
-    this.dy = rnd(1, 3);
+    this.dx = rnd(1, 5);
+    this.dy = rnd(1, 5);
     this.colour = rndColour();
     
 
@@ -63,7 +63,7 @@ function Circle(){
 
 var circles = [];
 
-for (let i = 0; i < 422; i++) {
+for (let i = 0; i < 999; i++) {
     var circ = new Circle();
     circles.push(circ);
     
