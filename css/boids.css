@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    border: 0;
+
+
+}
+
+html, body {
+    background: #141414;
+    color: #fff;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 16;
+    overflow: hidden;
+}
+
+
+
+canvas {
+
+    
+}
